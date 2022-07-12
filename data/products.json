@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "price": 30,
+    "imgUrl": "/assets/apple.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Orange",
+    "price": 40,
+    "imgUrl": "/assets/orange.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Banana",
+    "price": 10,
+    "imgUrl": "/assets/banana.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pineapple",
+    "price": 140,
+    "imgUrl": "/assets/pineapple.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tomato",
+    "price": 20,
+    "imgUrl": "/assets/tomato.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ovacado",
+    "price": 30,
+    "imgUrl": "/assets/ovacado.jpg"
+  }
+]
