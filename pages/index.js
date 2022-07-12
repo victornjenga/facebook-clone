@@ -43,7 +43,7 @@ export default function Home() {
           onClick={signIn}
           className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer "
         >
-          Login with Facebook
+          Login with Google
         </h1>
       </div>
     );
