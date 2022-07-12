@@ -17,7 +17,7 @@ const Sidebar = () => {
   const { data: session, status } = useSession();
 
   return (
-    <div className="p-2 mt-5  max-w-[600px] lg:min-w-[300px]">
+    <div className="p-2 mt-5 hidden md:block  md:max-w-[600px] lg:min-w-[300px]">
       <SidebarRow src={session.user.image} title={session.user.name} />
       <SidebarRow Icon={UsersIcon} title="Friends" />
       <SidebarRow Icon={UserGroupIcon} title="Groups" />

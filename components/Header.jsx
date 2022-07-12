@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div className="sticky top-0 z-50 bg-white p-2 lg:px-2 shadow-md flex items-center">
-      <div className="flex items-center">
+      <div className="hidden md:flex items-center">
         <Image
           src="https://links.papareact.com/5me"
           width={40}
@@ -36,7 +36,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center flex-grow">
+      <div className="flex  justify-center flex-grow">
         <div className="flex space-x-6 md:space-x-2">
           <HeaderIcon Icon={HomeIcon} />
           <HeaderIcon Icon={FlagIcon} />
