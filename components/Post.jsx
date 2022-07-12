@@ -11,7 +11,7 @@ const Post = ({ name, message, email, postImage, image, timestamp }) => {
       <div className="p-5 bg-white mt-5 rounded-t-2xl shadow-sm">
         <div className="flex items-center space-x-2">
           <Image
-            src={session.user.image}
+            src={image}
             className="rounded-full cursor-pointer"
             width={40}
             height={40}

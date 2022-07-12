@@ -84,7 +84,7 @@ const InputBox = () => {
             flex-grow px-5 focus:outline-none"
             type="text"
             ref={inputRef}
-            placeholder={`What's on your mind,${session.user.name}?`}
+            placeholder={`What's on your mind?`}
           />
           <button hidden onClick={sendPost} type="submit">
             Submit

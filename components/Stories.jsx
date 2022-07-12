@@ -16,6 +16,11 @@ const stories = [
     src: "/images/users/tomato.jpg",
     profile: "/images/avatars/banana.jpg",
   },
+  {
+    name: " Ovacado",
+    src: "/images/users/ovacado.jpg",
+    profile: "/images/avatars/pieapple.jpg",
+  },
 ];
 
 function Stories() {
